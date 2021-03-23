@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: parser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jinyi\AppData\Local\Temp\RSPBD1C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "YYDEBUG" /Fp"Debug/parser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Public\Documents\university  study\D_编译系统原理\作业\上机作业\编译上机作业5：上机大作业\complier5(2)\symbol.cpp"
+]
+Creating command line "cl.exe @C:\Users\jinyi\AppData\Local\Temp\RSPBD1C.tmp" 
+Creating temporary file "C:\Users\jinyi\AppData\Local\Temp\RSPBD1D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib yld.lib ylmtd.lib ylmtrd.lib ylmtrid.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/parser.pdb" /debug /machine:I386 /out:"Debug/parser.exe" /pdbtype:sept 
+".\Debug\lexer.obj"
+".\Debug\parser.obj"
+".\Debug\symbol.obj"
+".\Debug\tree.obj"
+]
+Creating command line "link.exe @C:\Users\jinyi\AppData\Local\Temp\RSPBD1D.tmp"
+<h3>Output Window</h3>
+Compiling...
+symbol.cpp
+Linking...
+LINK : LNK6004: Debug/parser.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+parser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
